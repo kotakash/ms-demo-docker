@@ -5,8 +5,7 @@
 sudo yum update &&
 #Use the following command to install pip for Python. We require this to install swagger-py-codegen
 sudo yum install python-pip -y &&
-#Now we will Swagger Py Codegen which is a Python web framework generator, which can help you generate a Python web framework automatically based on a given Swagger Specification doc.
-sudo pip install swagger-py-codegen &&
+
 #Update your package index and install Docker
 sudo yum update &&
 sudo yum install docker  -y  &&
